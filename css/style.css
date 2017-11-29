@@ -1,0 +1,372 @@
+
+/******* STYLE GUIDE *******/
+
+h1 {
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 36px;
+    color: #286EA0;
+}
+
+h4 {
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 40px;
+
+}
+
+h5 {
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+p {
+    font-family: 'Raleway';
+    font-weight: Light;
+    font-size: 16px;
+    line-height: 20px;
+    position: 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+
+/******* NAVIGATION ********/
+header {
+  font-family: 'Oswald';
+  font-weight: 600;
+  background: #ffffff;
+  width: 100%;
+}
+
+
+
+
+/******* NAVBAR ********/
+
+/* Add a white background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: #fff;
+    border: 0;
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 16px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #212121 !important;
+}
+
+/* On hover, the links will turn blue */
+.navbar-nav li a:hover {
+    color: #286EA0 !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #286EA0 !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+/******* CAROUSEL ********/
+
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(10%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    height: 200px;
+    margin: auto;
+}
+.carousel-caption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff !important;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 40px;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+/******* RESPONSIVE BODY ********/
+
+.limit1200 {
+    padding: 20px 100px;
+}
+
+.limit400 {
+    padding: 20px 20px;
+    font-size: 12px;
+}
+
+.limit400 h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.limit400 h2 {
+    font-size: 30px;
+}
+
+/******* BODY ********/
+
+.triz-1 {
+    background: #286EA0;
+    color: #fff;
+}
+
+.triz-1 h1{
+    text-align: left; 
+}
+
+.con-1 {
+    background: #58595A;
+    color: #bdbdbd;
+}
+
+.con-1 h3 {
+    color: #fff;
+}
+
+.con-1 li  {
+    position: relative;
+    color: white;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    margin: auto;
+    padding: 10;
+    border-style:none;
+    margin: 5px;
+}
+
+.con-1 li h3 {
+    list-style: none;
+    color: #286EA0;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.con-2 {
+    padding: top;
+    text-align: left;
+}
+
+
+/******* INVENTIVE PRINCIPLES ********/
+
+.prin-1 {
+    padding: 20px;
+    background: #fff; 
+    background: transparent;
+}
+
+.prin-1 h1 {
+    color: #286EA0;
+    padding-bottom: 50px;
+}
+
+.prince {
+  width: 900px;
+  height: 900px;
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: 300;
+  font-size: 20px;
+  color: #BCBEC0;
+}
+
+
+.prince:hover {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 30px;
+    color: #286EA0; 
+}
+
+
+
+/******* MODAL POP UP ********/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #286EA0;
+    color: white;
+}
+
+.modal-body {
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #286EA0;
+    color: white;
+}
+
+
+/******* MODAL POP UP OVER********/
+
+.genrich-1 {
+
+    background: #58595A;
+    color: #bdbdbd;
+}
+
+.genrich-1 h3 {
+    color: #fff;
+}
+
+
+.param-1 {
+    background: #58595A;
+    background: #fff;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.param-1 h1 {
+    color: #286EA0;
+}
+
+.param-2 {
+    padding: 20px;
+    padding-bottom: 40px;   
+    
+}
+
+.param-2 li:hover {
+    font-weight: 600;
+    font-size: 20px;
+    color: #286EA0; 
+}
+
+.contool-1 {
+    padding: 20px 50px;
+    background: #286EA0;
+    color: #fff;
+}
+
+.dl-1 {
+    background: #286EA0;
+    text-align: center;
+}
+
+.dl-1 h1 {
+    color: #fff;
+}
+
+.floating-box {
+    display: inline-block;
+    width: 300px;
+    height: 210px;
+    margin: 50px;
+    border: 3px solid #fff;
+}
+
+.limit400 .floating-box {
+    display: inline-block;
+    width: 200px;
+    height: 140px;
+    margin: 20px;
+    border: 3px solid #fff;
+}
