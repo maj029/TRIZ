@@ -26,14 +26,12 @@ h4 {
     font-family: 'Oswald';
     font-weight: 600;
     font-size: 40px;
-
 }
 
 h5 {
     font-family: 'Oswald';
     font-weight: 300;
     font-size: 24px;
-
 }
 
 p {
@@ -52,8 +50,6 @@ a:hover {
     cursor: pointer;
 }
 
-
-
 /******* NAVIGATION ********/
 header {
   font-family: 'Oswald';
@@ -61,9 +57,6 @@ header {
   background: #ffffff;
   width: 100%;
 }
-
-
-
 
 /******* NAVBAR ********/
 
@@ -100,9 +93,7 @@ header {
     border-color: transparent;
 }
 
-
 /******* CAROUSEL ********/
-
 
 .carousel-inner img {
     -webkit-filter: grayscale(90%);
@@ -192,7 +183,6 @@ header {
     text-align: left;
 }
 
-
 /******* INVENTIVE PRINCIPLES ********/
 
 .prin-1 {
@@ -216,15 +206,12 @@ header {
   color: #BCBEC0;
 }
 
-
 .prince:hover {
     cursor: pointer;
     font-weight: 600;
     font-size: 30px;
     color: #286EA0; 
 }
-
-
 
 /******* MODAL POP UP ********/
 
@@ -295,13 +282,11 @@ header {
     padding: 50px 30px;
 }
 
-
 .modal-footer {
     padding: 2px 16px;
     background-color: #286EA0;
     color: white;
 }
-
 
 /******* MODAL POP UP OVER********/
 
@@ -314,7 +299,6 @@ header {
 .genrich-1 h3 {
     color: #fff;
 }
-
 
 .param-1 {
     background: #58595A;
@@ -346,6 +330,8 @@ header {
     color: #fff;
 }
 
+/******* DOWNLOADS ********/
+
 .dl-1 {
     background: #286EA0;
     text-align: center;
@@ -359,8 +345,18 @@ header {
     display: inline-block;
     width: 300px;
     height: 210px;
+    padding: 40px;
     margin: 50px;
-    border: 3px solid #fff;
+    margin-top: 60;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 3px solid #58595A;
+    background-color: #fff;
+    vertical-align: middle;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 40px;
+    border-radius: 25px;
 }
 
 .limit400 .floating-box {
@@ -368,5 +364,40 @@ header {
     width: 200px;
     height: 140px;
     margin: 20px;
-    border: 3px solid #fff;
+    margin-top: 40;
+    border: 3px solid #58595A;
+    background-color: #fff;
+    vertical-align: middle;
+    font-size: 40px;
+    border-radius: 25px;
 }
+
+/******* FOOTER ********/
+
+footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #fff; }
+  footer.page-footer .container-fluid {
+    width: auto; }
+
+.design {
+    text-align: right;
+    padding-right: 50px;
+    color: black;
+}
+
+.footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: #58595A;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 0.9rem; }
+
+.footer.page-footer a {
+    color: #286EA0; 
+}
+
+

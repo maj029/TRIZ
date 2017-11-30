@@ -1,10 +1,6 @@
 $(document).ready(function(){
     console.log("the document is ready!");
 
-    // Initialize Tooltip
-/*
-    *$('[data-toggle="tooltip"]').tooltip(); 
-
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#myPage']").on('click', function(event){
 
@@ -15,9 +11,9 @@ $(document).ready(function(){
           }, 900, function(){
           });
     });
-*/
+
 $(window).on('resize', function() {
-    if($(window).width() > 400) {
+    if($(window).width() > 540) {
         $('#body, #body2, #body3, #body4, #body5, #body6').addClass('limit1200');
         $('#body, #body2, #body3, #body4, #body5, #body6').removeClass('limit400');
     }else{
@@ -27,7 +23,6 @@ $(window).on('resize', function() {
     console.log("class executed 1");   
     });
 
-    
     console.log("code executed 1");
     
     //MODAL ON PRINCIPLE CLICK    
@@ -61,8 +56,8 @@ $(window).on('resize', function() {
     
 console.log("code executed 2");
 
-    
-    new Vivus('my-svg', {duration: 200}, myCallback);
+    // Funky squirly vector animations
+      new Vivus('my-svg', {duration: 200}, myCallback);
  
 });
 
