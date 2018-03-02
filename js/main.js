@@ -12,6 +12,17 @@ $(document).ready(function(){
           });
     });
 
+    
+// loads pages
+        $(document).on('click', '.load-page', function(){
+        var href = $(this).attr("data-href");
+
+        $.get(href,function (hdisplayed) {
+            $("#content").html( hdisplayed );
+   $(window).scrollTop(0);
+        });
+    });
+    
 $(window).on('resize', function() {
     if($(window).width() > 540) {
         $('#body, #body2, #body3, #body4, #body5, #body6').addClass('limit1200');
