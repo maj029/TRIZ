@@ -12,7 +12,6 @@ $(document).ready(function(){
           });
     });
 
-        $('.carousel').carousel()
     
 // loads pages
         $(document).on('click', '.load-page', function(){
